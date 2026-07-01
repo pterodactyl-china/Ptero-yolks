@@ -1,4 +1,4 @@
-FROM        ghcr.io/ptero-eggs/yolks:debian
+FROM        registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian
 
 LABEL       author="Manuel Dielacher" maintainer="th3dilli@gmx.at"
 

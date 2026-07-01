@@ -1,3 +1,8 @@
+# Set locale to Chinese (阿里云国内镜像)
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+export LANGUAGE=zh_CN:zh
+
 # Default the TZ environment variable to UTC.
 TZ=${TZ:-UTC}
 export TZ

@@ -23,9 +23,9 @@ jobs:
 
       - uses: docker/login-action@v3
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: registry.cn-shanghai.aliyuncs.com
+          username: ${{ secrets.ALIYUN_USERNAME }}
+          password: ${{ secrets.ALIYUN_PASSWORD }}
 
       - uses: docker/build-push-action@v5
         with:
@@ -34,4 +34,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/yolks:end-of-life
+            registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:end-of-life

@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/ptero-eggs/yolks:debian
+FROM        --platform=$TARGETOS/$TARGETARCH registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian
 
 LABEL       author="Torsten Widmann" maintainer="support@goover.de"
 

@@ -1,4 +1,9 @@
 #!/bin/bash
+# Set locale to Chinese (阿里云国内镜像)
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+export LANGUAGE=zh_CN:zh
+
 # Wait for the container to fully initialize
 sleep 1
 

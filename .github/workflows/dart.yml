@@ -30,9 +30,9 @@ jobs:
           buildkitd-flags: --debug
       - uses: docker/login-action@v3
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: registry.cn-shanghai.aliyuncs.com
+          username: ${{ secrets.ALIYUN_USERNAME }}
+          password: ${{ secrets.ALIYUN_PASSWORD }}
       - uses: docker/build-push-action@v5
         with:
           context: ./dart
@@ -40,4 +40,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/yolks:dart_${{ matrix.tag }}
+            registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_${{ matrix.tag }}

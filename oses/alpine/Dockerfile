@@ -27,11 +27,14 @@ LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
-RUN         apk add --update --no-cache ca-certificates tzdata tini \
+RUN         apk add --update --no-cache ca-certificates tzdata tini musl-locales musl-locales-lang \
 				&& adduser -D -h /home/container container
 
 USER        container
-ENV         USER=container HOME=/home/container
+ENV         USER=container HOME=/home/container \
+				LANG=zh_CN.UTF-8 \
+				LC_ALL=zh_CN.UTF-8 \
+				LANGUAGE=zh_CN:zh
 WORKDIR     /home/container
 
 STOPSIGNAL SIGINT

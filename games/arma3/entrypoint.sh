@@ -1,4 +1,9 @@
 #!/bin/bash
+# Set locale to Chinese (阿里云国内镜像)
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+export LANGUAGE=zh_CN:zh
+
 
 ## File: Pterodactyl Arma 3 Image - entrypoint.sh
 ## Author: David Wolfe (Red-Thirten)
