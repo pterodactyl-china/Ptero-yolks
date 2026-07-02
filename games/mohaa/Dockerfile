@@ -1,4 +1,4 @@
-FROM        registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian
+FROM        crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:debian
 
 LABEL       author="Manuel Dielacher" maintainer="th3dilli@gmx.at"
 

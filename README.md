@@ -3,7 +3,7 @@
 A curated collection of core images that can be used with Pterodactyl's Egg system. Each image is rebuilt
 periodically to ensure dependencies are always up-to-date.
 
-Images are hosted on `registry.cn-shanghai.aliyuncs.com/pterocn-eggs` (阿里云国内镜像) and exist under the `games`, `installers`, and `yolks` spaces. The following logic
+Images are hosted on `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs` (阿里云国内镜像) and exist under the `games`, `installers`, and `yolks` spaces. The following logic
 is used when determining which space an image will live under:
 
 * `games` — anything within the `games` folder in the repository. These are images built for running a specific game
@@ -29,328 +29,328 @@ is tagged correctly.
 ### [Oses](/oses)
 
 * [alpine](/oses/alpine)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:alpine`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:alpine`
 * [debian_bookworm](/oses/debian_bookworm)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian_bookworm`
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:debian_bookworm`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:debian`
 * [debian_trixie](/oses/debian_trixie)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian_trixie`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:debian_trixie`
 * [ubuntu](/oses/ubuntu_24.04)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:ubuntu`
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:ubuntu_24.04`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:ubuntu`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:ubuntu_24.04`
 
 
 ### [Apps](/apps)
 
 * [`uptimekuma`](/apps/uptimekuma)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:apps_uptimekuma`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:apps_uptimekuma`
 
 ### [Bot](/bot)
 
 * [`bastion`](/bot/bastion)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bot_bastion`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bot_bastion`
 * [`parkertron`](/bot/parkertron)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bot_parkertron`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bot_parkertron`
 * [`redbot`](/bot/red)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bot_red`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bot_red`
 * [`sinusbot`](/bot/sinusbot)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bot_sinusbot`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bot_sinusbot`
 
 ### [Box64](/box64)
 
 * [`Box64`](/box64)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:box64`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:box64`
 
 ### [Bun](/bun)
 
 * [`Bun Canary`](/bun/canary)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bun_canary`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bun_canary`
 * [`Bun Latest`](/bun/latest)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:bun_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:bun_latest`
 
 ### [Cassandra](/cassandra)
 
 * [`cassandra_java8_python2`](/cassandra/cassandra_java8_python2)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:cassandra_java8_python2`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:cassandra_java8_python2`
 * [`cassandra_java11_python3`](/cassandra/cassandra_java11_python3)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:cassandra_java11_python3`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:cassandra_java11_python3`
 
 ### [Dart](/dart)
 
 * [`dart2.17`](/dart/2.17)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_2.17`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dart_2.17`
 * [`dart2.18`](/dart/2.18)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_2.18`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dart_2.18`
 * [`dart2.19`](/dart/2.19)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_2.19`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dart_2.19`
 * [`dart3.3`](/dart/3.3)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_3.3`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dart_3.3`
 * [`dart stable`](/dart/stable)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dart_stable`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dart_stable`
 
 ### [dotNet](/dotnet)
 
 * [`dotnet2.1`](/dotnet/2.1)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_2.1`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_2.1`
 * [`dotnet3.1`](/dotnet/3.1)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_3.1`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_3.1`
 * [`dotnet5.0`](/dotnet/5)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_5`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_5`
 * [`dotnet6.0`](/dotnet/6)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_6`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_6`
 * [`dotnet7.0`](/dotnet/7)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_7`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_7`
 * [`dotnet8.0`](/dotnet/8)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_8`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_8`
 * [`dotnet9.0`](/dotnet/9)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_9`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_9`
 * [`dotnet10.0`](/dotnet/10)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:dotnet_10`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:dotnet_10`
 
 ### [Elixir](/elixir)
 
 * [`elixir 1.12`](/elixir/1.12)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:elixir_1.12`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:elixir_1.12`
 * [`elixir 1.13`](/elixir/1.13)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:elixir_1.13`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:elixir_1.13`
 * [`elixir 1.14`](/elixir/1.14)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:elixir_1.14`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:elixir_1.14`
 * [`elixir 1.15`](/elixir/1.15)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:elixir_1.15`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:elixir_1.15`
 * [`elixir latest`](/elixir/latest)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:elixir_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:elixir_latest`
 
 ### [Erlang](/erlang)
 
 * [`erlang22`](/erlang/22)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:erlang_22`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:erlang_22`
 * [`erlang23`](/erlang/23)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:erlang_23`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:erlang_23`
 * [`erlang24`](/erlang/24)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:erlang_24`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:erlang_24`
 * [`erlang25`](/erlang/25)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:erlang_25`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:erlang_25`
 * [`erlang26`](/erlang/26)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:erlang_26`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:erlang_26`
   * 
 ### [Games](/games)
 
 * [`altv`](/games/altv)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:altv`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:altv`
 * [`arma3`](/games/arma3)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:arma3`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:arma3`
 * [`dayz`](/games/dayz)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:dayz`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:dayz`
 * [`minetest`](/games/minetest)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:minetest`  
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:minetest`  
 * [`mohaa`](games/mohaa)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:mohaa`  
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:mohaa`  
 * [`Multi Theft Auto: San Andreas`](games/mta)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:mta`    
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:mta`    
 * [`samp`](/games/samp)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:samp`  
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:samp`  
 * [`source`](/games/source)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:source`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:source`
 * [`thebattleforwesnoth`](/games/thebattleforwesnoth)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:thebattleforwesnoth`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:thebattleforwesnoth`
 * [`valheim`](/games/valheim)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/games:valheim`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/games:valheim`
 
 ### [Golang](/go)
 
 * [`go1.14`](/go/1.14)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.14`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.14`
 * [`go1.15`](/go/1.15)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.15`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.15`
 * [`go1.16`](/go/1.16)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.16`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.16`
 * [`go1.17`](/go/1.17)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.17`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.17`
 * [`go1.18`](/go/1.18)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.18`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.18`
 * [`go1.19`](/go/1.19)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.19`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.19`
 * [`go1.20`](/go/1.20)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.20`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.20`
 * [`go1.21`](/go/1.21)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.21`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.21`
 * [`go1.22`](/go/1.22)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.22`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.22`
 * [`go1.23`](/go/1.23)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.23`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.23`
 * [`go1.24`](/go/1.24)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.24`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.24`
 * [`go1.25`](/go/1.25)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_1.25`
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:go_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_1.25`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:go_latest`
 
 ### [Java](/java)
 
 * [`java8`](/java/8)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_8`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_8`
 * [`java11`](/java/11)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_11`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_11`
 * [`java16`](/java/16)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_16`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_16`
 * [`java17`](/java/17)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_17`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_17`
 * [`java19`](/java/19)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_19`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_19`
 * [`java21`](/java/21)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_21`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_21`
 * [`java22`](/java/22)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_22`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_22`
 * [`java23`](/java/23)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_23`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_23`
 * [`java24`](/java/24)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_24`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_24`
 * [`java25`](/java/25)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:java_25`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:java_25`
 
 ### [MariaDB](/mariadb)
 
 * [`MariaDB 10.5`](/mariadb/10.5)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.5`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.5`
 * [`MariaDB 10.6`](/mariadb/10.6)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.6`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.6`
 * [`MariaDB 10.11`](/mariadb/10.11)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.11`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_10.11`
 * [`MariaDB 11.4`](/mariadb/11.4)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.4`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.4`
 * [`MariaDB 11.6`](/mariadb/11.6)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.6`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.6`
 * [`MariaDB 11.8`](/mariadb/11.8)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.8`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_11.8`
 * [`MariaDB 12.0`](/mariadb/12.0)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mariadb_12.0`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mariadb_12.0`
 
 ### [MongoDB](/mongodb)
 
 * [`MongoDB 5`](/mongodb/5)
-* `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mongodb_5`
+* `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mongodb_5`
 * [`MongoDB 6`](/mongodb/6)
-* `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mongodb_6`    
+* `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mongodb_6`    
 * [`MongoDB 7`](/mongodb/7)
-* `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mongodb_7`
+* `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mongodb_7`
 * [`MongoDB 8`](/mongodb/8)
-* `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mongodb_8`
+* `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mongodb_8`
 
 ### [Mono](/mono)
 
 * [`mono_latest`](/mono/latest)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:mono_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:mono_latest`
 
 ### [Nodejs](/nodejs)
 
 * [`node12`](/nodejs/12)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_12`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_12`
 * [`node14`](/nodejs/14)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_14`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_14`
 * [`node16`](/nodejs/16)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_16`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_16`
 * [`node17`](/nodejs/17)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_17`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_17`
 * [`node18`](/nodejs/18)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_18`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_18`
 * [`node19`](/nodejs/19)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_19`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_19`
 * [`node20`](/nodejs/20)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_20`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_20`
 * [`node21`](/nodejs/21)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_21`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_21`
 * [`node22`](/nodejs/22)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_22`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_22`
 * [`node23`](/nodejs/23)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_23`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_23`
 * [`node24`](/nodejs/24)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_24`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_24`
 * [`node25`](/nodejs/25)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:nodejs_25`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:nodejs_25`
 
 ### [PostgreSQL](/postgres)
   * [`Postgres 13`](/postgres/13)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:postgres_13`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:postgres_13`
   * [`Postgres 14`](/postgres/14)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:postgres_14`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:postgres_14`
   * [`Postgres 15`](/postgres/15)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:postgres_15`  
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:postgres_15`  
   * [`Postgres 16`](/postgres/16)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:postgres_16`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:postgres_16`
   * [`Postgres 17`](/postgres/17)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:postgres_17`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:postgres_17`
 
 ### [Python](/python)
 
 * [`python3.7`](/python/3.7)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.7`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.7`
 * [`python3.8`](/python/3.8)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.8`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.8`
 * [`python3.9`](/python/3.9)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.9`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.9`
 * [`python3.10`](/python/3.10)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.10`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.10`
 * [`python3.11`](/python/3.11)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.11`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.11`
 * [`python3.12`](/python/3.12)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.12`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.12`
 * [`python3.13`](/python/3.13)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.13`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.13`
 * [`python3.14`](/python/3.14)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:python_3.14`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:python_3.14`
 
 ### [Redis](/redis)
 
   * [`Redis 6`](/redis/6)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:redis_6`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:redis_6`
   * [`Redis 7`](/redis/7)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:redis_7`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:redis_7`
   * [`Redis 8`](/redis/8)
-    * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:redis_8`
+    * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:redis_8`
 
 ### [Rust](/rust)
 
 * [`rust1.56`](/rust/1.56)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:rust_1.56`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:rust_1.56`
 * [`rust1.60`](/rust/1.60)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:rust_1.60`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:rust_1.60`
 * [`rust latest`](/rust/latest)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:rust_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:rust_latest`
 
 ### [SteamCMD](/steamcmd)
 * [`SteamCMD Debian lastest`](/steamcmd/debian)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:debian`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:debian`
 * [`SteamCMD Debian Dotnet`](/steamcmd/dotnet)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:dotnet`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:dotnet`
 * [`SteamCMD Proton`](/steamcmd/proton)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:proton`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:proton`
 * [`SteamCMD Proton`](/steamcmd/proton_8)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:proton_8`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:proton_8`
 * [`SteamCMD Sniper latest`](/steamcmd/sniper)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:sniper`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:sniper`
 * [`SteamCMD Ubuntu 22.04 LTS`](/steamcmd/ubuntu)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:ubuntu`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:ubuntu`
 * [`SteamCMD Ubuntu 24.04 LTS`](/steamcmd/ubuntu_24.04)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/steamcmd:ubuntu_24.04`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/steamcmd:ubuntu_24.04`
 
 
 ### [Voice](/voice)
 * [`Mumble`](/voice/mumble)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:voice_mumble`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:voice_mumble`
 * [`TeaSpeak`](/voice/teaspeak)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:voice_teaspeak`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:voice_teaspeak`
 
 ### [Wine](/wine)
 
 * [`Wine`](/wine)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:wine_latest`
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:wine_devel`
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:wine_staging`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:wine_latest`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:wine_devel`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:wine_staging`
 
 ### [Installation Images](/installers)
 
 * [`alpine-install`](/installers/alpine)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/installers:alpine`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/installers:alpine`
 * [`debian-install`](/installers/debian)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/installers:debian`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/installers:debian`
 * [`ubuntu-install`](/installers/ubuntu)
-  * `registry.cn-shanghai.aliyuncs.com/pterocn-eggs/installers:ubuntu`
+  * `crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/installers:ubuntu`

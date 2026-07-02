@@ -1,7 +1,7 @@
 # ---------------------------------------
 # Generic Wine image based on Wine devel
 # ---------------------------------------
-FROM            registry.cn-shanghai.aliyuncs.com/pterocn-eggs/yolks:debian_trixie
+FROM            crpi-61s8ghuciu93bus8.cn-shanghai.personal.cr.aliyuncs.com/pterocn-eggs/yolks:debian_trixie
 
 LABEL           author="Michael Parker" maintainer="parker@pterodactyl.io"
 LABEL           org.opencontainers.image.licenses=MIT
