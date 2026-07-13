@@ -1,15 +1,15 @@
 # ---------------------------------------------
 # Steam Proton image
 # ---------------------------------------------
-FROM        debian:bookworm-slim
+FROM        debian:trixie-slim
 
 LABEL       author="Torsten Widmann" maintainer="info@goover.de"
 
 ## install required packages
 RUN         dpkg --add-architecture i386
 RUN         apt update
-RUN         apt install -y --no-install-recommends wget iproute2 gnupg2 software-properties-common libntlm0 winbind xvfb xauth libncurses5-dev:i386 libncurses6 dbus libgdiplus lib32gcc-s1
-RUN         apt install -y alsa-tools libpulse0 pulseaudio libpulse-dev libasound2 libao-common gnutls-bin gnupg locales numactl cabextract curl python3 python3-pip python3-setuptools tini file pipx
+RUN         apt install -y --no-install-recommends wget iproute2 gnupg2 libntlm0 winbind xvfb xauth libncurses6 dbus libgdiplus lib32gcc-s1
+RUN         apt install -y alsa-tools libpulse0 pulseaudio libpulse-dev libasound2t64 libao-common gnutls-bin gnupg locales numactl cabextract curl python3 python3-pip python3-setuptools tini file pipx
 RUN         useradd -d /home/container -m container
 
 # Download Proton GE (x86_64 version only)
@@ -23,7 +23,8 @@ RUN         dbus-uuidgen --ensure=/etc/machine-id
 RUN         rm /var/lib/dbus/machine-id
 RUN         dbus-uuidgen --ensure
 
-#Setup Protontricks
+# Setup Protontricks (system-wide for all users)
+ENV        PIPX_BIN_DIR=/usr/local/bin PIPX_HOME=/opt/pipx
 RUN        pipx install protontricks
 
 # Set up Winetricks
