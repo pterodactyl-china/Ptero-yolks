@@ -12,8 +12,8 @@ RUN         apt install -y --no-install-recommends wget iproute2 gnupg2 software
 RUN         apt install -y alsa-tools libpulse0 pulseaudio libpulse-dev libasound2 libao-common gnutls-bin gnupg locales numactl cabextract curl python3 python3-pip python3-setuptools tini file pipx
 RUN         useradd -d /home/container -m container
 
-# Download Proton GE
-RUN         curl -sLOJ "$(curl -s https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases/latest | grep browser_download_url | cut -d\" -f4 | egrep .tar.gz)"
+# Download Proton GE (x86_64 version only)
+RUN         curl -sLO "$(curl -s https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases/latest | grep browser_download_url | grep -v aarch64 | grep -E '\.tar\.gz' | cut -d\" -f4)"
 RUN         tar -xzf GE-Proton*.tar.gz -C /usr/local/bin/ --strip-components=1
 RUN         rm GE-Proton*.*
 
